@@ -7,6 +7,7 @@ class Application
     else
       resp.write "Good Afternoon!"
     end
+  end
 end
 
     # num_1 = Kernel.rand(1..20)

@@ -7,6 +7,7 @@ class Application
     else
       resp.write "Good Afternoon!"
     end
+    resp.finish
   end
 end
 
@@ -20,4 +21,3 @@ end
   #     resp.write "You Lose"
   #   end
   #
-  #   resp.finish
